@@ -1,0 +1,38 @@
+{
+  "name": "MyProject1",
+  "description": "A test project for bower",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-resource": "1.2.x",
+    "jquery-legacy": "jquery#^1",
+    "jquery": "jquery#^2",
+    "underscore": "~1.6.0",
+    "fontawesome": "~4.1.0",
+    "angular-ui-router": "~0.2.10",
+    "bootstrap": "~3.1.1",
+    "angular-bootstrap": "~0.10.0",
+    "angular-route":"*",
+    "angular-animate":"*"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.16"
+  },
+  "main": "server.js",
+  "keywords": [
+    "test"
+  ],
+  "authors": [
+    "David Greenberg"
+  ],
+  "license": "none",
+  "homepage": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

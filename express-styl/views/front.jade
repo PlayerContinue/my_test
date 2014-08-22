@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1 #{title}
+	p Welcome to #{title}
+
+	div
+		each value,item in language
+			p= item + "." + value
+
+	div(ng-repeat="i in ['1','2','3']")
+		p= i
+
+
